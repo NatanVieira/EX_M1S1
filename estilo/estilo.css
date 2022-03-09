@@ -1,0 +1,17 @@
+body {
+    background-color: fuchsia;
+}
+
+body h1 {
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    font-size: 14px;
+}
