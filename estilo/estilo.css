@@ -9,7 +9,11 @@ body h1 {
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: white;
+    color: blue;
+    background-image: url("../img/paisagem.jpg");
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: cover;
 }
 
 p {
