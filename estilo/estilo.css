@@ -1,5 +1,11 @@
+html {
+    min-height: 100%;
+}
 body {
     background-color: fuchsia;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 body h1 {
@@ -58,4 +64,15 @@ ul a:hover {
     color: white;
     background-color: black;
     transition: 300ms;
+}
+
+.rodape { 
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: sticky;
+    left: 0;
+    bottom: 0;   
 }
