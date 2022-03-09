@@ -43,7 +43,7 @@ p {
     align-self: left;
 }
 ul {
-    display: block;
+    display: inline;
     align-self: right;
     list-style: none;
     ;
@@ -52,4 +52,10 @@ ul {
 ul a {
     text-decoration: none;
     color: blue;
+}
+
+ul a:hover {
+    color: white;
+    background-color: black;
+    transition: 300ms;
 }
